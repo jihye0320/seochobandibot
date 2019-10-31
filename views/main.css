@@ -1,0 +1,52 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: Georgia, Times, serifs;
+}
+
+.chat-window {
+  width: 400px;
+  height: 600px;
+  border: green 3px solid;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+.conversation-view {
+  height: 400px;
+  padding: 20px;
+}
+
+.message-box {
+  height: 100px;
+  padding: 20px;
+  background-color: lightseagreen;
+}
+
+#text-input {
+  width: 70%;
+  padding: 5px;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+#btn {
+  width: 20%;
+  height: 25px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Georgia;
+}
